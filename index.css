@@ -1,0 +1,93 @@
+*{
+    text-decoration: none;
+}
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 35px;
+    min-width: 800px;
+}
+#input{
+    margin-top: 5px;
+    padding: 10px 10px;
+    height: 22px;
+    display: block;
+    width: 100%;
+    border: 2px solid green;
+}
+#input, textarea{
+    background-color: rgb(219, 226, 219);
+}
+#delete{
+    box-sizing: border-box;
+    margin-top: 3px;
+    border: 2px solid green;
+    background-color: white;
+    color: green;
+    padding: 10px 20px;
+    /* border: none; */
+    /* height:  27px; */
+    transition: background-color 2s, color 2s;
+}
+#delete:hover{
+    background-color: darkolivegreen;
+    color: white;
+}
+#rename{
+    box-sizing: border-box;
+    margin-top: 3px;
+    border: 2px solid green;
+    background-color: white;
+    color: green;
+    padding: 10px 20px;
+    /* border: none; */
+    /* height:  27px; */
+    transition: background-color 2s, color 2s;
+}
+#rename:hover{
+    background-color: darkolivegreen;
+    color: white;
+}
+#tab{
+    margin-top: 3px;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    
+    border: 2px solid green;
+    transition: background-color 1s;
+}
+#tab:hover{
+    background-color: rgb(43, 90, 25);
+}
+#delete_el{
+    margin-top: 3px;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    
+    border: 2px solid green;
+    transition: background-color 1s;
+}
+#delete_el:hover{
+    background-color: rgb(43, 90, 25);
+}
+/* #tab{
+    margin-top: 3px;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    
+    border: 2px solid green;
+} */
+ul{
+    list-style: none;
+}
+li{
+    margin-left: -40px;
+}
+a{
+    color: green;
+    
+}
